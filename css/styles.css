@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #b7c2c4;
+
+}
+
+#titulo{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container #titulo-2{
+    padding: 15px;
+}
+
+.container .button{
+    background-color: #58B9CA;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.dice-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dice {
+    width: 100px; 
+    height: 100px;
+    padding: 15px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 30px; 
+}
+
+
